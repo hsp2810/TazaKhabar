@@ -2,7 +2,6 @@ import Head from "next/head";
 import { NewsBox } from "../components/NewsBox";
 
 export default function Home({ news }) {
-  console.log("Printing the news in Server side", news[0]);
   return (
     <>
       <Head>
